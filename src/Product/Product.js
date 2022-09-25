@@ -41,6 +41,7 @@ const Product = ({ handleClick }) => {
      <div className="cointainer-fluid mx-2">
         <div className="row mt-5 mx-2">
           <div className="col-md-3">
+          <button type="button" className="btn btn-secondary w-100 mb-4" onClick={() => setdemo(data)}>All</button>
           <button type="button" className="btn btn-secondary w-100 mb-4" onClick={() => filterResult("S")}>S</button>
           <button type="button" className="btn btn-secondary w-100 mb-4" onClick={() => filterResult("L")}>L</button>
           <button type="button" className="btn btn-secondary w-100 mb-4" onClick={() => filterResult("XL")}>XL</button>
